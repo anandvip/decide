@@ -49,6 +49,9 @@ footer {
 h1 {
   color: #383c54;
   font-size: clamp(3.6rem, -0.875rem + 8.333333vw, 5.5rem);
+  padding-left: 20px;
+  text-decoration-color: #f51497;
+  text-decoration-line: underline;
 }
 
 h3 {
@@ -85,8 +88,7 @@ summary {
 .wrapper {
   max-width: 1500px;
   display: grid;
-  border-radius: 5px;
-  grid-gap: 10px;
+  gap: 1px;
   grid-template-columns: repeat(auto-fill,
       minmax(100px, 1.2fr) minmax(200px, 1.5fr));
   margin-bottom: 10px;
@@ -102,7 +104,7 @@ article {
   align-items: start;
   justify-content: center;
   gap: 2rem;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   padding: 20px;
 }
 
