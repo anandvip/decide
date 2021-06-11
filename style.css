@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+  }
+  body {
+    margin: 40px;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+
+    font-size:0.7rem;
+    color:#969696;
+    text-align: center
+  }
+  
+  .box {
+    background-color: #383C54;
+    color: #fff;
+    border-radius: 1px;
+    padding: 20px;
+    font-size: 150%;
+  }
+  
+  .box:nth-child(even) {
+    background-color: #aaf2ff;
+    color: #000;
+  }
+  
+  .box:nth-child(odd),h4{
+    font-family: Montserrat, sans-serif;
+    font-size:1rem;
+  }
+  h3, h1, sup,footer{
+    font-family: Montserrat, sans-serif;
+  }
+  h1{
+    font-size:5.2rem;
+    color:#383C54
+  }
+  h3{
+    font-size:1rem;
+    padding-left: 10px;
+  }
+  .staySharp{
+    color: rgb(104, 104, 104);
+  }
+  .decision{
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+  }
+  sup{
+    font-size:0.5rem;
+    color:#00bcd4;
+    padding-left: 10px;
+  }
+  summary,p,li{
+    font-size:0.6rem;
+    font-family: Montserrat, sans-serif;
+  }
+  summary{
+    font-weight: bold;
+  }
+      .wrapper {
+      max-width:1500px;
+          display: grid;
+      border:5px solid #383C54;
+      border-radius: 5px;
+      grid-gap: 10px;
+          grid-template-columns: repeat(auto-fill, minmax(100px,1.2fr) minmax(200px,1.5fr));
+      margin-bottom:10px;
+      background-color:#00bcd4;
+      }
+  .brief{
+    max-width:100vw;
+
+  }
+  article{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px,1fr) );
+    align-items:start;
+    justify-content: center;
+    gap:2rem;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
