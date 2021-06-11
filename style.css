@@ -71,7 +71,7 @@
       border:5px solid #383C54;
       border-radius: 5px;
       grid-gap: 10px;
-          grid-template-columns: repeat(auto-fill, minmax(100px,1.2fr) minmax(200px,1.5fr));
+      grid-template-columns: repeat(auto-fill, minmax(100px,1.2fr) minmax(200px,1.5fr));
       margin-bottom:10px;
       background-color:#00bcd4;
       }
@@ -92,5 +92,6 @@
   @media (max-width:641px){
     .wrapper{
       max-width:100vw;
+      grid-template-columns: repeat(auto-fill, minmax(100px,1fr) minmax(100px,1fr));
     }
   }
